@@ -88,7 +88,9 @@ const connectToDatabase = async () => {
 // AWS Lambda Handler
 // ==========================================
 
-const serverlessApp = serverless(app);
+const serverlessApp = serverless(app, {
+    basePath: "/production"
+});
 
 const handler = async (event, context) => {
     // Keep the Lambda invocation from waiting for
