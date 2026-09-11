@@ -1,0 +1,99 @@
+/* ==========================================
+   Paper Pixel Design Tokens
+
+  "What values does the design use?"
+      │
+      ├── colors
+      ├── spacing
+      ├── typography sizes
+      ├── font weights
+      ├── shadows
+      └── radii
+========================================== */
+
+:root {
+  /* ========= Brand Colors ========= */
+  --color-primary: #6f4e37;
+  --color-secondary: #a67c52;
+  --color-accent: #d8a86d;
+
+  /* ========= Background ========= */
+  --color-background: #f8f4ee;
+  --color-surface: #fffdf9;
+  --color-light-background: #ebd9c6;
+
+  /* ========= Text ========= */
+  --color-heading: #2e241b;
+  --color-body: #5c534b;
+  --color-muted: #8c837b;
+
+  /* ========= Borders ========= */
+  --color-border: #e6ded4;
+
+  /* ========= Status ========= */
+  --color-success: #4f7c4d;
+  --color-danger: #b84c4c;
+  --color-warning: #d19a2a;
+  --color-info: #5f8ca5;
+
+  /* ========= Typography ========= */
+    --font-heading: "Fraunces", Georgia, serif;
+    --font-body: "Inter", Arial, sans-serif;
+
+  /* Font Sizes */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 2.75rem;
+
+  /* Font Weight */
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* ========= 8pt Spacing System ========= */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem;  /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem;    /* 16px */
+  --space-5: 1.5rem;  /* 24px */
+  --space-6: 2rem;    /* 32px */
+  --space-7: 3rem;    /* 48px */
+  --space-8: 4rem;    /* 64px */
+  --space-9: 6rem;    /* 96px */
+
+  /* ========= Radius ========= */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  /* ========= Shadows ========= */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.12);
+
+  /* ========= Borders ========= */
+  --border: 1px solid var(--color-border);
+
+  /* ========= Animation ========= */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+
+  /* ========= Layout ========= */
+  --container-width: 1200px;
+
+  /* ========= Navbar ========= */
+  --navbar-height: 72px;
+
+  /* ========= Z-Index ========= */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal: 1050;
+}

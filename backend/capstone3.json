@@ -1,0 +1,13 @@
+{
+	"url": "https://x0ppt9whz5.execute-api.us-east-2.amazonaws.com/production",
+	"routesPrefix": {
+
+		"users": "/users",
+		"authors": "/authors",
+		"categories": "/categories",
+		"books": "/books",
+		"book-formats": "/book-formats",
+		"orders": "/orders",
+		"cart": "/cart"
+	}
+}

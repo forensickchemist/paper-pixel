@@ -1,0 +1,186 @@
+/*
+"What reusable styles does the application provide?"
+│
+├── layout
+├── sections
+├── surfaces
+├── text utilities
+├── backgrounds
+├── borders
+├── shadows
+├── radius
+├── hover effects
+└── accessibility
+*/
+
+/* ==========================================
+Container
+========================================== */
+
+.container-custom {
+max-width: var(--container-width);
+margin-inline: auto;
+padding-inline: var(--space-4);
+}
+
+/* ==========================================
+Sections
+========================================== */
+
+.section {
+padding-block: var(--space-4);
+}
+
+.section-sm {
+padding-block: var(--space-6);
+}
+
+/* ==========================================
+Section Heading
+========================================== */
+
+.section-label {
+margin-bottom: var(--space-2);
+
+
+color: var(--color-secondary);
+
+font-size: var(--fs-sm);
+font-weight: var(--fw-semibold);
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+
+}
+
+.section-title {
+margin-bottom: var(--space-2);
+}
+
+.section-subtitle {
+margin-bottom: var(--space-6);
+color: var(--color-muted);
+
+}
+
+/* ==========================================
+Generic Surface
+========================================== */
+
+.surface {
+background: var(--color-surface);
+border: var(--border);
+border-radius: var(--radius-md);
+box-shadow: var(--shadow-sm);
+}
+
+/* ==========================================
+Text Utilities
+========================================== */
+
+.text-heading {
+color: var(--color-heading);
+}
+
+.text-body {
+color: var(--color-body);
+}
+
+.text-muted {
+color: var(--color-muted);
+}
+
+.text-primary {
+color: var(--color-primary);
+}
+
+.text-secondary {
+color: var(--color-secondary);
+}
+
+.text-accent {
+color: var(--color-accent);
+}
+
+/* ==========================================
+Background Utilities
+========================================== */
+
+.bg-surface {
+background: var(--color-surface);
+}
+
+.bg-primary-soft {
+background: rgba(111, 78, 55, 0.08);
+}
+
+/* ==========================================
+Borders
+========================================== */
+
+.border-default {
+border: var(--border);
+}
+
+/* ==========================================
+Shadows
+========================================== */
+
+.shadow-sm {
+box-shadow: var(--shadow-sm);
+}
+
+.shadow-md {
+box-shadow: var(--shadow-md);
+}
+
+/* ==========================================
+Radius
+========================================== */
+
+.rounded-sm {
+border-radius: var(--radius-sm);
+}
+
+.rounded-md {
+border-radius: var(--radius-md);
+}
+
+.rounded-lg {
+border-radius: var(--radius-lg);
+}
+
+/* ==========================================
+Hover Effects
+========================================== */
+
+.hover-lift {
+transition:
+transform var(--transition-fast),
+box-shadow var(--transition-fast);
+}
+
+.hover-lift:hover {
+transform: translateY(-4px);
+box-shadow: var(--shadow-md);
+}
+
+/* ==========================================
+Dividers
+========================================== */
+
+.divider {
+border-top: var(--border);
+}
+
+/* ==========================================
+Accessibility
+========================================== */
+
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+position: absolute;
+width: 1px;
+height: 1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+}

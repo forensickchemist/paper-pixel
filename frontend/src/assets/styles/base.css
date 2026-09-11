@@ -1,0 +1,169 @@
+/*
+"What should HTML elements do by default?"
+│
+├── body
+├── h1-h6
+├── p
+├── a
+├── img
+├── form controls
+└── reset/foundation
+*/
+
+/* ==========================================
+CSS Reset
+========================================== */
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+/* ==========================================
+HTML
+========================================== */
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: var(--font-body);
+font-size: var(--fs-base);
+color: var(--color-body);
+background: var(--color-background);
+line-height: 1.6;
+-webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================
+Typography
+========================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-bottom: var(--space-4);
+
+
+color: var(--color-heading);
+font-family: var(--font-heading);
+font-weight: var(--fw-semibold);
+line-height: 1.2;
+
+
+}
+
+h1 {
+font-size: var(--fs-3xl);
+}
+
+h2 {
+font-size: var(--fs-2xl);
+}
+
+h3 {
+font-size: var(--fs-xl);
+}
+
+h4 {
+font-size: var(--fs-lg);
+}
+
+h5 {
+font-size: var(--fs-md);
+}
+
+h6 {
+font-size: var(--fs-base);
+}
+
+p {
+margin-bottom: var(--space-4);
+}
+
+small {
+color: var(--color-muted);
+}
+
+/* ==========================================
+Links
+========================================== */
+
+a {
+color: inherit;
+text-decoration: none;
+transition: color var(--transition-fast);
+}
+
+a:hover {
+color: var(--color-primary);
+}
+
+/* ==========================================
+Images
+========================================== */
+
+img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+
+/* ==========================================
+Lists
+========================================== */
+
+ul,
+ol {
+list-style: none;
+}
+
+/* ==========================================
+Forms
+========================================== */
+
+input,
+textarea,
+select,
+button {
+font: inherit;
+}
+
+button {
+cursor: pointer;
+border: none;
+background: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+outline: none;
+}
+
+/* ==========================================
+Tables
+========================================== */
+
+table {
+border-collapse: collapse;
+}
+
+/* ==========================================
+Selection
+========================================== */
+
+::selection {
+background: var(--color-accent);
+color: white;
+}

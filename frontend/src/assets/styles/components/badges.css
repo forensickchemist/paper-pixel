@@ -1,0 +1,75 @@
+/* ==========================================
+   Badges
+
+   "What reusable badge styles does the
+    application provide?"
+========================================== */
+
+
+/* ==========================================
+   Category Badge
+========================================== */
+
+.category-badge {
+  display: inline-block;
+
+  padding: var(--space-1) var(--space-3);
+
+  background-color: var(--color-warning);
+  border-radius: var(--radius-pill);
+
+  color: var(--color-surface);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+}
+
+/* ==========================================
+   Book Format Badge
+========================================== */
+
+.format-badge {
+  display: inline-block;
+
+  padding: var(--space-1) var(--space-2);
+
+  background-color: var(--color-light-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+
+  color: var(--color-body);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  text-transform: capitalize;
+}
+
+.format-icon {
+  margin-left: var(--space-1);
+  font-size: var(--fs-base);
+}
+
+.format-icon.available {
+  color: var(--color-success);
+}
+
+.format-icon.unavailable {
+  color: var(--color-danger);
+}
+
+/* ==========================================
+   Admin Badge
+========================================== */
+
+.admin-badge {
+  display: inline-block;
+
+  padding: var(--space-1) var(--space-3);
+
+  background-color: rgba(79, 124, 77, 0.12);
+  border-radius: var(--radius-pill);
+
+  color: var(--color-success);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+  text-transform: capitalize;
+}
+

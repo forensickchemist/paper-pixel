@@ -1,0 +1,62 @@
+/* ==========================================
+   Forms
+
+   "What reusable form styles does the
+    application provide?"
+========================================== */
+
+
+/* ==========================================
+   Form
+========================================== */
+
+.auth-form {
+  width: 100%;
+}
+
+
+/* ==========================================
+   Form Title
+========================================== */
+
+.form-title {
+  margin-bottom: var(--space-5);
+
+  color: var(--color-heading);
+  font-family: var(--font-heading);
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-semibold);
+
+  text-align: center;
+}
+
+
+/* ==========================================
+   Form Label
+========================================== */
+
+.form-label {
+  color: var(--color-heading);
+  font-weight: var(--fw-medium);
+}
+
+
+/* ==========================================
+   Form Control
+========================================== */
+
+.form-control {
+  border-color: var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-body);
+}
+
+
+/* ==========================================
+   Form Control Focus
+========================================== */
+
+.form-control:focus {
+  border-color: var(--color-secondary);
+  box-shadow: 0 0 0 0.2rem rgba(166, 124, 82, 0.15);
+}
