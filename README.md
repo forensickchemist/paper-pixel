@@ -50,22 +50,9 @@ The frontend and backend are maintained as separate applications.
 ## API Documentation
 The project's REST API is documented using Postman.
 
-## Documentation
-For detailed information about the project's architecture, features, API, setup, environment variables, database structure, and development instructions, see:
-```
-Project_Documentation.md
-```
 
 ## Project Status
-The project is currently in development and has not yet been deployed.
-
-The planned backend deployment target is AWS Lambda, with MongoDB used as the database and Cloudinary used for image storage.
+The backend is deployed at AWS Lambda
 
 ## Authors
 - Fritz Cabalhin
-- Gabrielle Diño
-
-Author's contribution are documented in:
-```
-Author_Contribution.md
-```
