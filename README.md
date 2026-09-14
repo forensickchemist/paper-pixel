@@ -94,14 +94,14 @@ The application is built as two independently deployed applications:
 ## Architecture
 
 ```text
-                         ┌──────────────────┐
-                         │      User        │
-                         └────────┬─────────┘
-                                  │
-                                  ▼
+                        ┌──────────────────┐
+                        │      User        │
+                        └────────┬─────────┘
+                                 │
+                                 ▼
                     ┌─────────────────────────┐
-                    │     Vercel              │
-                    │  Vue.js + Vite          │
+                    │          Vercel         │
+                    │     Vue.js + Vite       │
                     └────────────┬────────────┘
                                  │
                                  │ HTTPS / REST API
@@ -112,7 +112,7 @@ The application is built as two independently deployed applications:
                                  │
                                  ▼
                     ┌─────────────────────────┐
-                    │      AWS Lambda         │
+                    │        AWS Lambda       │
                     │    Express REST API     │
                     └───────┬──────────┬──────┘
                             │          │
