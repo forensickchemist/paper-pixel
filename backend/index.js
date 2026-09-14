@@ -28,6 +28,13 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors());
 
+app.get("/", (req, res) => {
+    res.status(200).json({
+        status: "ok",
+        message: "Paper Pixel API is running"
+    });
+});
+
 // ==========================================
 // Routes
 // ==========================================
