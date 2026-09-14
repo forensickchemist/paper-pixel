@@ -395,9 +395,9 @@ The frontend and backend are independently deployed.
 
 ```text
 ┌──────────────────────────┐
-│      Vercel              │
+│         Vercel           │
 │                          │
-│ Vue.js + Vite            │
+│     Vue.js + Vite        │
 └────────────┬─────────────┘
              │
              │ HTTPS / REST

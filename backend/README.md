@@ -359,7 +359,7 @@ The backend is deployed using AWS Lambda and Amazon API Gateway.
 
 ```text
                     ┌────────────────────┐
-                    │  Amazon API Gateway │
+                    │  Amazon API Gateway│
                     └──────────┬─────────┘
                                │
                                ▼
