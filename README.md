@@ -112,8 +112,8 @@ The application is built as two independently deployed applications:
                                  │
                                  ▼
                     ┌─────────────────────────┐
-                    │      AWS Lambda          │
-                    │    Express REST API      │
+                    │      AWS Lambda         │
+                    │    Express REST API     │
                     └───────┬──────────┬──────┘
                             │          │
                             ▼          ▼
